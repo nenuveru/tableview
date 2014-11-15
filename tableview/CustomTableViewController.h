@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableViewController.h
 //  tableview
 //
 //  Created by Parimala Gollapudi on 11/14/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomTableViewController : UITableViewController
 
 @end
-

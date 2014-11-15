@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B8BCF42F1A17029400C48DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF42E1A17029400C48DE1 /* main.m */; };
 		B8BCF4321A17029400C48DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4311A17029400C48DE1 /* AppDelegate.m */; };
-		B8BCF4351A17029400C48DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4341A17029400C48DE1 /* ViewController.m */; };
 		B8BCF4381A17029400C48DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF4361A17029400C48DE1 /* Main.storyboard */; };
 		B8BCF43A1A17029400C48DE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF4391A17029400C48DE1 /* Images.xcassets */; };
 		B8BCF43D1A17029400C48DE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF43B1A17029400C48DE1 /* LaunchScreen.xib */; };
 		B8BCF4491A17029400C48DE1 /* tableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4481A17029400C48DE1 /* tableviewTests.m */; };
+		B8BCF4541A1702CC00C48DE1 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4531A1702CC00C48DE1 /* CustomTableViewController.m */; };
+		B8BCF4571A1703B600C48DE1 /* SwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4561A1703B600C48DE1 /* SwiftTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		B8BCF42E1A17029400C48DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8BCF4301A17029400C48DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8BCF4311A17029400C48DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8BCF4331A17029400C48DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8BCF4341A17029400C48DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B8BCF4371A17029400C48DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8BCF4391A17029400C48DE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8BCF43C1A17029400C48DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B8BCF4421A17029400C48DE1 /* tableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BCF4471A17029400C48DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8BCF4481A17029400C48DE1 /* tableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableviewTests.m; sourceTree = "<group>"; };
+		B8BCF4521A1702CC00C48DE1 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		B8BCF4531A1702CC00C48DE1 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		B8BCF4551A1703B600C48DE1 /* tableview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tableview-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8BCF4561A1703B600C48DE1 /* SwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				B8BCF4301A17029400C48DE1 /* AppDelegate.h */,
 				B8BCF4311A17029400C48DE1 /* AppDelegate.m */,
-				B8BCF4331A17029400C48DE1 /* ViewController.h */,
-				B8BCF4341A17029400C48DE1 /* ViewController.m */,
+				B8BCF4521A1702CC00C48DE1 /* CustomTableViewController.h */,
+				B8BCF4531A1702CC00C48DE1 /* CustomTableViewController.m */,
+				B8BCF4561A1703B600C48DE1 /* SwiftTableViewController.swift */,
 				B8BCF4361A17029400C48DE1 /* Main.storyboard */,
 				B8BCF4391A17029400C48DE1 /* Images.xcassets */,
 				B8BCF43B1A17029400C48DE1 /* LaunchScreen.xib */,
 				B8BCF42C1A17029400C48DE1 /* Supporting Files */,
+				B8BCF4551A1703B600C48DE1 /* tableview-Bridging-Header.h */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BCF4351A17029400C48DE1 /* ViewController.m in Sources */,
+				B8BCF4541A1702CC00C48DE1 /* CustomTableViewController.m in Sources */,
+				B8BCF4571A1703B600C48DE1 /* SwiftTableViewController.swift in Sources */,
 				B8BCF4321A17029400C48DE1 /* AppDelegate.m in Sources */,
 				B8BCF42F1A17029400C48DE1 /* main.m in Sources */,
 			);
@@ -343,9 +349,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = tableview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tableview/tableview-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -353,9 +362,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = tableview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tableview/tableview-Bridging-Header.h";
 			};
 			name = Release;
 		};

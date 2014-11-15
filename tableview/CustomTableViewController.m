@@ -7,8 +7,12 @@
 //
 
 #import "CustomTableViewController.h"
+#import "AnimalArrayList.h"
 
 @interface CustomTableViewController ()
+{
+AnimalArrayList * anim;
+}
 
 @end
 
@@ -16,6 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+     anim = [[AnimalArrayList alloc] initWithAnimalDictionary];
+    
+    
+     
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -34,24 +43,25 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 3;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
     
-    if (section == 0){
-        return 2;
-        
-    }
-    else if (section == 1){
-        return 1;
-    }
-    else{
-        return 3;
-    }
+//    if (section == 0){
+//        return ;
+//        
+//    }
+//    else if (section == 1){
+//        return 1;
+//    }
+//    else{
+//        return 3;
+//    }
 
+    return [anim.animalArray count];
     
 }
 
@@ -62,20 +72,22 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    if (indexPath.section == 0){
-        cell.textLabel.text = @"row in Section1";
+//    if (indexPath.section == 0){
+    NSDictionary *dictData = anim.animalArray[indexPath.row];
+    cell.textLabel.text = [dictData objectForKey:NAME];
         cell.backgroundColor = [UIColor redColor];
-    }
-    else if (indexPath.section == 1){
-        cell.textLabel.text = @"row in Section2";
-        cell.backgroundColor = [UIColor grayColor];
-
-    }
-    else{
-        cell.textLabel.text = @"row in Section3";
-        cell.backgroundColor = [UIColor greenColor];
-
-    }
+    
+//    }
+//    else if (indexPath.section == 1){
+//        cell.textLabel.text = @"row in Section2";
+//        cell.backgroundColor = [UIColor grayColor];
+//
+//    }
+//    else{
+//        cell.textLabel.text = @"row in Section3";
+//        cell.backgroundColor = [UIColor greenColor];
+//
+//    }
     
     return cell;
 }

@@ -15,6 +15,13 @@
 		B8BCF4491A17029400C48DE1 /* tableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4481A17029400C48DE1 /* tableviewTests.m */; };
 		B8BCF4541A1702CC00C48DE1 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4531A1702CC00C48DE1 /* CustomTableViewController.m */; };
 		B8BCF4571A1703B600C48DE1 /* SwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4561A1703B600C48DE1 /* SwiftTableViewController.swift */; };
+		B8BCF45D1A17C10300C48DE1 /* Unknown-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF4581A17C10300C48DE1 /* Unknown-2.jpg */; };
+		B8BCF45E1A17C10300C48DE1 /* Unknown-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF4591A17C10300C48DE1 /* Unknown-3.jpg */; };
+		B8BCF45F1A17C10300C48DE1 /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF45A1A17C10300C48DE1 /* Unknown.jpg */; };
+		B8BCF4601A17C10300C48DE1 /* wolf4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF45B1A17C10300C48DE1 /* wolf4.jpg */; };
+		B8BCF4611A17C10300C48DE1 /* wolf3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BCF45C1A17C10300C48DE1 /* wolf3.jpg */; };
+		B8BCF4671A17C4D400C48DE1 /* DictionaryList.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4661A17C4D400C48DE1 /* DictionaryList.m */; };
+		B8BCF46A1A17CA5F00C48DE1 /* AnimalArrayList.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF4691A17CA5F00C48DE1 /* AnimalArrayList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,15 @@
 		B8BCF4531A1702CC00C48DE1 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 		B8BCF4551A1703B600C48DE1 /* tableview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tableview-Bridging-Header.h"; sourceTree = "<group>"; };
 		B8BCF4561A1703B600C48DE1 /* SwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableViewController.swift; sourceTree = "<group>"; };
+		B8BCF4581A17C10300C48DE1 /* Unknown-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-2.jpg"; sourceTree = "<group>"; };
+		B8BCF4591A17C10300C48DE1 /* Unknown-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-3.jpg"; sourceTree = "<group>"; };
+		B8BCF45A1A17C10300C48DE1 /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpg; sourceTree = "<group>"; };
+		B8BCF45B1A17C10300C48DE1 /* wolf4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolf4.jpg; sourceTree = "<group>"; };
+		B8BCF45C1A17C10300C48DE1 /* wolf3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolf3.jpg; sourceTree = "<group>"; };
+		B8BCF4651A17C4D400C48DE1 /* DictionaryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryList.h; path = ../DictionaryList.h; sourceTree = "<group>"; };
+		B8BCF4661A17C4D400C48DE1 /* DictionaryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryList.m; path = ../DictionaryList.m; sourceTree = "<group>"; };
+		B8BCF4681A17CA5F00C48DE1 /* AnimalArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalArrayList.h; sourceTree = "<group>"; };
+		B8BCF4691A17CA5F00C48DE1 /* AnimalArrayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalArrayList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,15 @@
 		B8BCF42B1A17029400C48DE1 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
+				B8BCF4581A17C10300C48DE1 /* Unknown-2.jpg */,
+				B8BCF4591A17C10300C48DE1 /* Unknown-3.jpg */,
+				B8BCF45A1A17C10300C48DE1 /* Unknown.jpg */,
+				B8BCF45B1A17C10300C48DE1 /* wolf4.jpg */,
+				B8BCF45C1A17C10300C48DE1 /* wolf3.jpg */,
+				B8BCF4651A17C4D400C48DE1 /* DictionaryList.h */,
+				B8BCF4661A17C4D400C48DE1 /* DictionaryList.m */,
+				B8BCF4681A17CA5F00C48DE1 /* AnimalArrayList.h */,
+				B8BCF4691A17CA5F00C48DE1 /* AnimalArrayList.m */,
 				B8BCF4301A17029400C48DE1 /* AppDelegate.h */,
 				B8BCF4311A17029400C48DE1 /* AppDelegate.m */,
 				B8BCF4521A1702CC00C48DE1 /* CustomTableViewController.h */,
@@ -92,8 +117,8 @@
 				B8BCF4361A17029400C48DE1 /* Main.storyboard */,
 				B8BCF4391A17029400C48DE1 /* Images.xcassets */,
 				B8BCF43B1A17029400C48DE1 /* LaunchScreen.xib */,
-				B8BCF42C1A17029400C48DE1 /* Supporting Files */,
 				B8BCF4551A1703B600C48DE1 /* tableview-Bridging-Header.h */,
+				B8BCF42C1A17029400C48DE1 /* Supporting Files */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -206,7 +231,12 @@
 			files = (
 				B8BCF4381A17029400C48DE1 /* Main.storyboard in Resources */,
 				B8BCF43D1A17029400C48DE1 /* LaunchScreen.xib in Resources */,
+				B8BCF45F1A17C10300C48DE1 /* Unknown.jpg in Resources */,
+				B8BCF4611A17C10300C48DE1 /* wolf3.jpg in Resources */,
 				B8BCF43A1A17029400C48DE1 /* Images.xcassets in Resources */,
+				B8BCF4601A17C10300C48DE1 /* wolf4.jpg in Resources */,
+				B8BCF45D1A17C10300C48DE1 /* Unknown-2.jpg in Resources */,
+				B8BCF45E1A17C10300C48DE1 /* Unknown-3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +256,8 @@
 			files = (
 				B8BCF4541A1702CC00C48DE1 /* CustomTableViewController.m in Sources */,
 				B8BCF4571A1703B600C48DE1 /* SwiftTableViewController.swift in Sources */,
+				B8BCF4671A17C4D400C48DE1 /* DictionaryList.m in Sources */,
+				B8BCF46A1A17CA5F00C48DE1 /* AnimalArrayList.m in Sources */,
 				B8BCF4321A17029400C48DE1 /* AppDelegate.m in Sources */,
 				B8BCF42F1A17029400C48DE1 /* main.m in Sources */,
 			);

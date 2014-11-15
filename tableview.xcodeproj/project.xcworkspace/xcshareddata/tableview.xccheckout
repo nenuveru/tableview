@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB07C6A0-B566-4A9C-8CE1-C4FEA3C0ACCB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tableview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8BBA5B2A3582DAD6CBC8D697F208F35F3BA6D8BF</key>
+		<string>https://github.com/nenuveru/tableview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tableview.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8BBA5B2A3582DAD6CBC8D697F208F35F3BA6D8BF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nenuveru/tableview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8BBA5B2A3582DAD6CBC8D697F208F35F3BA6D8BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BBA5B2A3582DAD6CBC8D697F208F35F3BA6D8BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tableview</string>
+		</dict>
+	</array>
+</dict>
+</plist>
